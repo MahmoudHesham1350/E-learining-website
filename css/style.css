@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/************************** Navbar  *********************************/
+/***********************************************************/
+.top {
+    height: 3vh;
+    background-color:#1490a3;
+}
+
+.task_bar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10% 0 10%;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 5px 20px #1490a321;
+}
+
+
+
+.task_bar h3 {
+    font-size: 110%;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+.icon h2 {
+    font-size: 2rem;
+}
+.task_bar .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 5%;
+}
+
+.utilities {
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.utilities > * {
+    height: 40px;
+    background-color: #1490a3;
+    border: 0;
+}
+
+button {
+    transition: transform, filter .3s;
+}
+
+button:hover, a:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.132));
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.search {
+    width: 40px;
+
+}
+
+.search img {
+    height: 70%;
+    width: 70%;
+}
+
+.register {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d7eaee;
+}
+
+.register h3 {
+    font-weight: 200;
+}
+
+.button_arrow {
+    width: 18px;
+    height: 15px;
+}
+/************************** Navbar end *********************************/
+/***********************************************************/
+
+
+
+
+
+
+
+/************************** Home  *********************************/
+/***********************************************************/
+
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.content .text {
+    width: 30%;
+    text-align: left;
+    align-items: center;
+
+}
+
+.content .bg_img {
+    width: 70%;
+}
+
+.bg_img img {
+    width: 100%;
+}
+
+.text > * {
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 3.5vw;
+    filter: drop-shadow(5px 5px 5px #07343b49);
+}
+
+h3, p {
+    font-size: 1.75vw;
+}
+
+.text .buttons {
+    display: flex;
+    gap: 5%;
+}
+
+.text .buttons > *, .all_categories {
+    width: 120px;
+    height: 40px;
+    border: 0;
+
+}
+
+.get_started, .all_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d7eaee;
+    background-color: #1490a3;
+}
+
+.home_footer{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.inc_icons {
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.inc_icons > * {
+    width: 10%;
+    height: 7vh;
+}
+
+/************************** Home end  *********************************/
+/***********************************************************/
+
+
+
+
+
+
+
+/************************** Cards  *********************************/
+/***********************************************************/
+
+
+.cards1, .cards2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    margin: auto;
+    width: 80%;
+    gap: 2%;
+}
+
+.cards2 {
+    margin-top: 5vh;
+}
+
+.courses {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: 2px 5px 20px #1490a321;
+    background-color:#1490a343;
+
+}
+
+.cards1 > *, .cards2 > * {
+    height: 20vw;
+    width: 24.5%;
+}
+
+.cards1 .courses_text {
+    width: 51%;
+}
+
+
+.home {
+    box-shadow: 2px 5px 20px #1490a321;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #d7eaee;
+    filter: drop-shadow(10px 10px 15px #1490a349);
+    transition: transform .3s;
+    padding: 15px;
+}
+
+.card h3 {
+    filter: drop-shadow(2px 2px 5px #07343ba8);
+}
+
+.card:hover {
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.31));
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    opacity: 95%;
+}
+
+
+.courses_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.courses_text > * {
+    margin-top: 3%;
+
+}
+
+.card h3 {
+    font-weight: 300;
+}
+
+/************************** Cards end  *********************************/
+/***********************************************************/
+
+
+
+
+
+
+/************************** Coaching  *********************************/
+/***********************************************************/
+
+.coaching {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    padding: 10vh 10% 10vh 10%;
+    background-color: #d7eaee55;
+}
+
+.coaching > * {
+    width: 50%;
+}
+
+.coaching_text > * {
+    margin-top: 3%;
+}
+
+.coaching .img_section img {
+    width: 90%;
+    border-radius: 5px;
+    height: 45vw;
+}
+
+.coaching .benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.benefits > * {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.text_star {
+    width: 10%;
+    margin-right: 5%;
+}
+
+.about_star {
+    width: 5%;
+    margin-right: 15px;
+
+}
+
+.benefits p {
+    margin-left: 15%;
+}
+
+.coaching_text button {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d7eaee;
+    height: 50px;
+    background-color: #1490a3;
+    border: 0;
+    font-size: 100%;
+    max-width: 30%;
+    max-height: 9%;
+}
+
+
+/************************** Coaching end  *********************************/
+/***********************************************************/
